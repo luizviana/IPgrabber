@@ -1,2 +1,2 @@
 # ipgrab
-Tool developed in python for IP address grabbing on Windows.
+Tool developed in python for social engineering IP address grabbing on Windows.
