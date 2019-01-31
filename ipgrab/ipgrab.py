@@ -34,7 +34,7 @@ def logip():
             iplist.append(ip)
             useragent = r['requests'][c]['request']['headers']['User-Agent'][0]
             date = r['requests'][c]['start']
-            info = "[ - ] REQUEST ID: " + str(countr) + "\n" + "[ + ]Date: " + date + '\n' + "[ + ]IP ADDRESS: " + ip + '\n' + "[ + ]User Agent: " + useragent + "\n"
+            info = "[ - ] REQUEST ID: " + str(countr) + "\n" + "[ + ] Date: " + date + '\n' + "[ + ] IP ADDRESS: " + ip + '\n' + "[ + ] User Agent: " + useragent + "\n"
             print info
             log.write(info)
             log.close()
