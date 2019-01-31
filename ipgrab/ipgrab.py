@@ -57,7 +57,7 @@ def startngrok():
         if sys == "Windows":
             os.system("start ngrok http "  + str(port) + " --authtoken " + auth)
         elif sys == "Linux":
-            os.system("./ngrok http " + str(port)) + " --authtoken " + auth + " > /dev/null &"
+            os.system("./ngrok http " + str(port) + " --authtoken " + auth + " > /dev/null &")
         else:
             print("[ # ] IPGRAB is not yet avaible for this platform. [ # ]")
             exit()
