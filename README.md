@@ -1,5 +1,5 @@
-# IPGRABB
-By Luiz P. Viana (0x4c)
+# IPGRAB
+By Luiz P. Viana
 Tool developed in python 2.7 for social engineering IP address grabbing.
 
 This tool makes a link that grab the IP address and User Agents of who clicked on it.
