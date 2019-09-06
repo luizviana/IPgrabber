@@ -77,7 +77,7 @@ def banner():
 |_ _|  _ \ / ___|  _ \    / \  | __ )\n \
  | || |_) | |  _| |_) |  / _ \ |  _ \ \n \
  | ||  __/| |_| |  _ <  / ___ \| |_) |\n \
-|___|_|    \____|_| \_\/_/   \_\____/\n Python IP-grabber with ngrok - By Luiz Vianna \n \t\t| github.com/luizpv |\n\n")
+|___|_|    \____|_| \_\/_/   \_\____/\n Python IP-grabber with ngrok - By Luiz Vianna \n \t\t| github.com/luizviana |\n\n")
     print ban
 
 def options():
