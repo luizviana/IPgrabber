@@ -1,6 +1,7 @@
 # IPGRAB
-By Luiz P. Viana
+By Luiz Viana
+Tool developed in python for social engineering IP address grabbing.
 
-Tool developed in python 2.7 for social engineering IP address grabbing.
-use: git clone https://github.com/luizviana/ipgrab/
-![image](./ipgrab.png)
+python iplogger.py -u https://example.com -n /home/kali/ngrok
+
+python iplogger.py -u https://example.com -n C:\Users\test\ngrok.exe
